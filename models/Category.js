@@ -7,6 +7,9 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
+    category_name: {
+      type: DataTypes.STRING
+    }
   },
   {
     sequelize,
