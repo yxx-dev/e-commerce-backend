@@ -48,7 +48,7 @@ router.put('/:id', async (req, res) => {
     if (!data[0]) {
       res.status(400).json({ message: 'no user with this id'});
       return;
-    }
+    };
     res.status(200).json({ message: 'record updated'});
   } catch (err) {
     res.status(500).json(err);

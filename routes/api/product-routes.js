@@ -79,7 +79,7 @@ router.put('/:id', async (req, res) => {
         };
       });
     // figure out which ones to remove
-    const productTagsToRemove = data
+    const productTagsToRemove = associatedTags
       .filter(({ tagId }) => !req.body.tagIds.includes(tagId))
       .map(({ id }) => id);
 
