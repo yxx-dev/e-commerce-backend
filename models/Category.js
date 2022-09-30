@@ -8,7 +8,8 @@ Category.init(
   {
     // define columns
     category_name: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false,
     }
   },
   {
