@@ -2,10 +2,11 @@
 
 ## Description
 A e-commerce back end using Express.js API, Sequelize and MySQL.
-Demonstration: 
+Demonstration: https://drive.google.com/file/d/1FE0bEHkNPC6hz_R8P8NMUuYGxZZSLv6p/view
 
 Functions: 
-1. 
+1. Use Sequelize object relational mapping of the MySql database
+2. Conduct create, read, update and delete (CRUD) operation on database via Sequelize
 
 ## Table of Contents
 NA
